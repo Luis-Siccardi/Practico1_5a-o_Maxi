@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.carrusel{
+    height: 100vh;
+    display: flex;
+}
+.carrusel-ites{
+    align-items: center;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+} 
+.carrusel-item{
+    height: 300px;
+    min-width: 500px; 
+    max-width: 500px;
+}
+.carrusel-item img{
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+}
+.carrusel-item:hover{
+    transform: scale(1.2);
+}
+
+.Contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(8, 8, 8);
+}
