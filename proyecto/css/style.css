@@ -77,14 +77,18 @@ table, th, td {
     }
   
 th, td{
-    background-color: rgb(245, 241, 234);
+    background-color: rgb(233, 14, 14);
+    color: white;
     }
 /*body y header*/
 header{
-    background-color: #640000;
+        background-color: #710101;
+        color: white;
+        padding: 20px;
+        text-align: left;
 }
 body{
-    background-color: #000000;
+    background-color: #0a0a0a;
 }
 /*clases de posicion*/
 .centrado{
@@ -95,6 +99,9 @@ body{
 }
 .izquierda{
     text-align: left;
+}
+.class-padin{
+    color: #710101;
 }
 /*colores*/
 .colorBlanco{
@@ -111,7 +118,7 @@ body{
 }
 /*colores de Fondo*/
 .colorfondoP{
-    background-color: black;
+    background-color: rgb(245, 237, 237);
 }
 
 .alto {
@@ -125,13 +132,25 @@ main {
 }
 
 button {
-    background-color: #0a141d;
-    border-start-start-radius: 5px;
-    }
+   
+    background-color: rgb(245, 247, 250);
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration:none;
+     
+}
+a{
+    text-decoration: none;
+}
 /*tabla*/
 .table-style {
     border-collapse: collapse;
-    width: 40%;
+    width: 30%;
+
 }
     
 .table-style th, .table-style td {
