@@ -5,9 +5,6 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-body{
-    background-image: url(https://st2.depositphotos.com/29752784/50713/i/450/depositphotos_507139566-stock-photo-abstract-background-red-light-dark.jpg);
-}
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
@@ -84,6 +81,9 @@ th, td{
     }
 /*body y header*/
 header{
+    background-color: #640000;
+}
+body{
     background-color: #000000;
 }
 /*clases de posicion*/
@@ -92,6 +92,9 @@ header{
   }
 .derecha{
     text-align: right;
+}
+.izquierda{
+    text-align: left;
 }
 /*colores*/
 .colorBlanco{
