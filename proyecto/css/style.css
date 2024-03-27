@@ -129,16 +129,19 @@ main {
 
 button {
    
-        background-color: rgb(203, 210, 219);
-        color: white;
-        padding: 10px 20px;
-        margin: 0 10px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        text-decoration: none;
+    background-color: rgb(245, 247, 250);
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration:none;
      
-    }
+}
+a{
+    text-decoration: none;
+}
 /*tabla*/
 .table-style {
     border-collapse: collapse;
