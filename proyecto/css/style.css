@@ -82,10 +82,13 @@ th, td{
     }
 /*body y header*/
 header{
-    background-color: #640000;
+        background-color: #710101;
+        color: white;
+        padding: 20px;
+        text-align: left;
 }
 body{
-    background-color: #000000;
+    background-color: #0a0a0a;
 }
 /*clases de posicion*/
 .centrado{
@@ -129,9 +132,20 @@ main {
 }
 
 button {
-    background-color: #0a141d;
-    border-start-start-radius: 5px;
-    }
+   
+    background-color: rgb(245, 247, 250);
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration:none;
+     
+}
+a{
+    text-decoration: none;
+}
 /*tabla*/
 .table-style {
     border-collapse: collapse;
