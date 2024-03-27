@@ -77,7 +77,8 @@ table, th, td {
     }
   
 th, td{
-    background-color: rgb(245, 241, 234);
+    background-color: rgb(233, 14, 14);
+    color: white;
     }
 /*body y header*/
 header{
@@ -95,6 +96,9 @@ body{
 }
 .izquierda{
     text-align: left;
+}
+.class-padin{
+    color: #710101;
 }
 /*colores*/
 .colorBlanco{
@@ -131,7 +135,8 @@ button {
 /*tabla*/
 .table-style {
     border-collapse: collapse;
-    width: 40%;
+    width: 30%;
+
 }
     
 .table-style th, .table-style td {
